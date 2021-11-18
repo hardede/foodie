@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+  
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container header-container">
+        <a class="logo">F<span>oo</span>die</a>
+        <div class="navigation">
+          <nav class="nav header-nav">
+            <button class="menu__btn">
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+            </button>
+            <ul class="nav-list list-reset">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#howitworks" class="nav-link">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="#screenshots" class="nav-link">Screenshots</a>
+              </li>
+              <li class="nav-item">
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#login"class="login-btn" aria-label="Login btn">Login</a>
+
+          <div href="#home" class="login-main" id="login">
+            <div class="login-data">
+              <p class="window-login">Login</p>
+              <div class="login-form">
+                <label class="login-form__label" for="login-name">Login:</label>
+                <span class="text-input">
+                    <input class="text-input__control" id="login-name" name="name" type="name" required="required">
+                </span>
+              </div>
+              <div class="login-form">
+                <label class="login-form__label" for="register-password">Пароль:</label>
+                <span class="text-input">
+                    <input class="text-input__control" id="register-password" name="password" type="password" required="required" minlength="4">
+                </span>
+              </div>
+              <div class="save-password">
+                <p class="Remember">Запомнить пароль ?</p>
+                <input type="checkbox">
+              </div>
+              <a href="#" class="btn-login enter">Войти</a>
+              <a href="#" class="btn-login close">Закрыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="menu-mobile__list list-reset">
+      <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#home">
+              <img class="menu-mobile__img" src="images/svg/home-solid.svg" width="20px" height="20px" alt="">
+              <p>Home</p> 
+          </a>
+      </li>
+      <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#about">
+              <img class="menu-mobile__img" src="images/svg/eject-solid.svg" width="20px" height="20px" alt="">
+              <p>About Us</p> 
+          </a>
+      </li>
+      <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#howitworks">
+              <img class="menu-mobile__img" src="images/svg/briefcase-solid.svg" width="20px" height="20px" alt="">
+              <p>How It Works</p> 
+          </a>
+      </li>
+      <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#screenshots">
+              <img class="menu-mobile__img" src="images/svg/mobile-alt-solid.svg" width="20px" height="20px" alt="">
+              <p>Screenshots</p> 
+          </a>
+      </li>
+      <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#testimonials">
+              <img class="menu-mobile__img" src="images/svg/comments-solid.svg" width="20px" height="20px" alt="">
+              <p>Testimonials</p> 
+          </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#login" >
+            <img class="menu-mobile__img" src="images/svg/comments-solid.svg" width="20px" height="20px" alt="">
+            <p>login</p> 
+        </a>
+    </li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-discr">
+            <h1 class="hero-title">Awesome App for Your Modern Lifestyle</h1>
+            <p class="hero-subtitle">We&rsquo;ll help you make your plans, inform you about the best events 
+              happening all around the world, tell you all about the best places to&nbsp;eat in&nbsp;the 
+              city and much much more.
+            </p>
+            <a href="https://www.apple.com/ua/app-store/" class="hero-btn hero-app" role="button" target="_blank">App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=uk.co.bigfoodie.bigfoodie&gl=UA" class="hero-btn hero-google" role="button" target="_blank">Google Play</a>
+          </div>
+          <div class="hero-mobile">
+            <img class="hero-mobile-img" src="images/iphone-header1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container container-about">
+        <div class="about-images">
+          <img class="photo-dish dish-padding" src="images/about-img1.jpg" alt="photograph of a dish">
+          <img class="photo-dish" src="images/about-img2.jpg" alt="photograph of a dish">
+          <img class="photo-dish dish-padding" src="images/about-img3.jpg" alt="photograph of a dish">
+          <img class="photo-dish" src="images/about-img4.jpg" alt="photograph of a dish">
+        </div>
+        <div class="about-text">
+          <h2 class="about-title">About Us</h2>
+          <div class="about-subtitle">Myresfeber is&nbsp;a&nbsp;leading city &amp;&nbsp;entertainment 
+            guide filled with handpicked recommendations of&nbsp;what 
+            to&nbsp;do&nbsp;in&nbsp;your city, explore hidden gems and be&nbsp;the first 
+            to&nbsp;get the latest buzz!
+          </div>
+          <div class="about-discr">
+            We&nbsp;consist of&nbsp;a&nbsp;constantly growing community of&nbsp;local experts showcasing 
+            a&nbsp;range of&nbsp;curated content around events, food, shopping, fashion, sightseeing, 
+            local communities, travel and so&nbsp;much more!We&rsquo;ll help you make your weekend plans, 
+            inform you about the best events happening all around the world, tell you all about the best places 
+            to&nbsp;eat in&nbsp;the city and much much more. Here&rsquo;s a&nbsp;little taste of&nbsp;the plethora 
+            of&nbsp;features we&nbsp;offer -You will happily receive expert recommendations tailor-made to&nbsp;suit 
+            your interests. We&rsquo;ll be&nbsp;providing you with city-specific stories and videos, handy local 
+            information&nbsp;&mdash; all right on&nbsp;your smartphone, ready to&nbsp;be&nbsp;scrolled 
+            through!We&rsquo;ll be&nbsp;updating and pushing through fresh content every few hours, giving you 
+            more than enough time to&nbsp;scan through and make plans to&nbsp;explore your city.You can also like, 
+            share and bookmark all your favorite articles and blurbs, and store them ready for future lookups!We 
+            pride ourselves on&nbsp;being one of&nbsp;the fastest-<br>loading apps out there today so&nbsp;that 
+            you&rsquo;ll have a&nbsp;seamless browsing experience.With all this and more, all fresh and ready 
+            for you guys, this is&nbsp;one platform that&rsquo;ll become your lifeline to&nbsp;navigate all 
+            corners of&nbsp;your city. Explore away!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="howitworks">
+      <div class="container">
+        <div class="work-container">
+          <div class="work-content">
+            <h2 class="work-title">How does this App Work?</h2>
+            <div class="work-points">
+              <div class="work-rows">
+                <div class="work-logo work-logo-user"></div>
+                <div class="work-text">
+                  <h5 class="points-title">Make a&nbsp;profile</h5>
+                  <p class="points-discr">Myresfeber is&nbsp;a&nbsp;leading city &amp;&nbsp;entertainment 
+                    guide filled with handpicked recommendations of&nbsp;what to&nbsp;do&nbsp;in&nbsp;your city, 
+                    explore hidden gems and be&nbsp;the first to&nbsp;get the latest buzz!
+                  </p>
+                </div>
+              </div>
+              <div class="work-rows">
+                <div class="work-logo work-logo-download"></div>
+                <div class="work-text">
+                  <h5 class="points-title">Download it&nbsp;for Free</h5>
+                  <p class="points-discr">Myresfeber is&nbsp;a&nbsp;leading city &amp;&nbsp;entertainment 
+                    guide filled with handpicked recommendations of&nbsp;what todo&nbsp;in&nbsp;your city, 
+                    explore hidden gems and be&nbsp;the first to&nbsp;get the latest buzz!
+                  </p>
+                </div>
+              </div>
+              <div class="work-rows">
+                <div class="work-logo work-logo-shield"></div>
+                <div class="work-text">
+                  <h5 class="points-title">Enjoy this App</h5>
+                  <p class="points-discr">Myresfeber is&nbsp;a&nbsp;leading city &amp;&nbsp;entertainment 
+                    guide filled with handpicked recommendations of&nbsp;what to&nbsp;do&nbsp;in&nbsp;your city, 
+                    explore hidden gems and be&nbsp;the first to&nbsp;get the latest buzz!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="img-phone">
+            <img class="work-iphone" src="images/mockup.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screenshots" id="screenshots">
+      <div class="container">
+        <h2 class="screenshots-title">Screenshots</h2>
+        <div class="screenshots-img">
+          <div class="screen">
+            <div class="app-screenshots__item">
+              <div class="img54">
+                <img class="app-screenshots" src="images/screenshot1.png" alt="screenshots of the mobile application">
+              </div>
+              <div class="img54">
+                <img class="app-screenshots" src="images/screenshot2.png" alt="screenshots of the mobile application">
+              </div>
+              <div class="img54">
+                <img class="app-screenshots" src="images/screenshot3.png" alt="screenshots of the mobile application">
+              </div>
+              <div class="img54">
+                <img class="app-screenshots" src="images/screenshot2.png" alt="screenshots of the mobile application">
+              </div>
+              <div class="img54">
+                <img class="app-screenshots" src="images/screenshot3.png" alt="screenshots of the mobile application">
+              </div>
+              <div class="img54">
+                <img class="app-screenshots" src="images/screenshot1.png" alt="screenshots of the mobile application">
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients" id="testimonials">
+      <div class="container">
+        <h2 class="clients-title">Our Clients Speak</h2>
+        <p class="clients-subtitle">We&nbsp;have been working with clients around the world</p>
+        <div class="items">
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Cybersport</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo S1mple">
+              <p class="reviews-name">S1mple</p>
+              <p class="reviews-professi">Cybersport CS:GO</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Jane Cooper">
+              <p class="reviews-name">Jane Cooper</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Jane Cooper">
+              <p class="reviews-name">Jane Cooper</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Jane Cooper">
+              <p class="reviews-name">Jane Cooper</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Jane Cooper">
+              <p class="reviews-name">Jane Cooper</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items"> 
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Jane Cooper">
+              <p class="reviews-name">Jane Cooper</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Jane Cooper">
+              <p class="reviews-name">Jane Cooper</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Elbert Enshtain">
+              <p class="reviews-name">Elbert Enshtain</p>
+              <p class="reviews-professi">CEO at&nbsp;ABC Corporation</p>
+            </div>
+          </div>
+          <div class="clients-items">
+            <div class="clients-colums">
+              <h4 class="reviews-title">Efficient Collaborating</h4>
+              <p class="reviews-discr">
+                Had really great experience with myresfeber, service is&nbsp;really good and everything 
+                is&nbsp;just awesome. Great recommendations and bookings were available at&nbsp;a&nbsp;discounted 
+                price. Awesome!
+              </p>
+              <img class="photo-clients" src="images/client.png" alt="Photo Ilon Mask">
+              <p class="reviews-name">Ilon Mask</p>
+              <p class="reviews-professi">Technologic</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="reviews-dots">
+          <a class="dots" href="#clients1"></a>
+          <a class="dots dots-active" href="#clients2"></a>
+          <a class="dots" href="#clients3"></a>
+        </div> -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-left">
+          <a class="footer-logo">F<span>oo</span>die</a>
+          <ul class="footer-nav list-reset">
+            <li class="footer-item">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer-item">
+              <a href="#howitworks">How it works</a>
+            </li>
+            <li class="footer-item">
+              <a href="#">Contact Us</a>
+            </li>
+            <li class="footer-item">
+              <a href="#">Help</a>
+            </li>
+            <li class="footer-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="rights">© 2021 Foodie. All rights reserved</p>
+        </div>
+        <div class="footer-right">
+          <p class="get-app">Get the App</p>
+          <a href="https://www.apple.com/ua/app-store/" class="footer-btn footer-app" role="button" target="_blank"></a>
+          <a href="https://play.google.com/store/apps/details?id=uk.co.bigfoodie.bigfoodie&gl=UA" class="footer-btn footer-google" role="button" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
